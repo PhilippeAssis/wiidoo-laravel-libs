@@ -1,0 +1,21 @@
+{
+    "name": "wiidoo/laravel-libs",
+    "description": "Set of libraries for development with laravel provided by Wiidoo Tecnologia",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["filemanager", "scriptshelper", "supports", "wiidoo"],
+    "authors": [
+        {
+            "name": "Philippe Assis",
+            "email": "assis@philippeassis.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "wiidoo/file-manager": "^0.1.0",
+        "wiidoo/scripts-helper": "^0.1.0",
+        "wiidoo/support": "^0.1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
