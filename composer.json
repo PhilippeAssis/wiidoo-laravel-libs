@@ -16,6 +16,12 @@
         "wiidoo/scripts-helper": "^0.1.0",
         "wiidoo/support": "^0.1.0"
     },
+    "scripts": {
+        "post-install-cmd" : [
+            "sudo mkdir storage/scripts",
+            "sudo chmod -R 777 storage"
+        ]
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
